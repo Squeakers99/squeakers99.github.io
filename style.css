@@ -4,24 +4,28 @@ body{
 
 .topnav {
     background-color: transparent;
-    overflow: hidden;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
   }
-
-  .topnav a {
-    float: left;
+  .topnav a{
+    float: right;
     color: #f2f2f2;
-    text-align: center;
+    margin: 10px;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: "Sans-serif", "Helvetica";
   }
-
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  .topnav a:hover{
+    background-color: #4c9e9e;
+    border-radius: 5px;
   }
-
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+  .topnav a.resume{
+    background-color: red;
+    border-radius: 5px;
+  }
+  .topnav a.resume:hover{
+    border: 2px solid red;
+    background-color: transparent;
   }
