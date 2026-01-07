@@ -26,21 +26,17 @@ function HomeExtended() {
               JUST A BIT <b className="red">ABOUT ME</b>
             </h1>
             <p className="about-paragraph">
-              Hello! My name is Soheil Rajabali. I am a grade 12 student currently enrolled in the STEM Program at <a 
+              Hello! My name is Soheil Rajabali. I am an Undergraduate student in <b>
+                <a 
                 style={{textDecoration: "none"}} 
                 className="blue"
                 target="_blank"
                 rel="noreferrer"
-                href="https://stau.ycdsb.ca/"
-              >
-                  St Augustine CHS
-              </a>
-
-              <br/>
-              <br/>
-
-              I am an aspiring <b className="blue">Engineer</b>. I have a passion for <i><b className="blue">technology and innovation</b></i> and I am always looking for ways to improve my skills and knowledge in the field.
-
+                href="https://www.ualberta.ca/en/engineering/admissions-programs/undergraduate/explore-programs/bsc-in-mechatronics-robotics-engineering.html"
+                >
+                    Mechatronics Engineering
+                </a>
+              </b> at the University of Alberta.
               <br/>
               <br/>
 

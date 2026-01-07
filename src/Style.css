@@ -126,7 +126,7 @@
         position: relative !important;
 }
 
-/*---------*/
+/*-----------*/
 /* Homepage */
 /*---------*/
 
@@ -326,3 +326,16 @@
                 animation-timing-function: ease-in-out;
         }
 }
+
+/*---------*/
+/* Resume */
+/*-------*/
+
+.resume-section {
+        position: relative !important;
+        padding-top: 110px !important;
+        padding-bottom: 30px !important;
+        background-image: var(--section-background-color) !important;
+        color: white !important;
+        text-align: center;
+    }

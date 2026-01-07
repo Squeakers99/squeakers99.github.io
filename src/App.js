@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import Navbar from "./Components/NavBar";
 import Home from "./Components/Pages/Home/Home";
 import Projects from "./Components/Pages/Projects/Projects";
-import Resume from "./Components/Pages/Resume/Resume";
+import ResumePage from "./Components/Pages/Resume/ResumePage";
 import About from "./Components/Pages/About/About"
 import {HashRouter as Router, Route, Routes} from "react-router-dom";
 import "./Style.css";
@@ -28,7 +28,7 @@ function App() {
               <Routes>
                   <Route path="/" element={<Home/>}/>
                   <Route path="/projects" element={<Projects/>}/>
-                  <Route path="/resume" element={<Resume/>}/>
+                  <Route path="/resume" element={<ResumePage/>}/>
                   <Route path="/contact" element={<Contact/>}/>
                   <Route path="/about" element={<About/>}/>
               </Routes>
